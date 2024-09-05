@@ -1,5 +1,8 @@
 {
   "name": "demo-vcpkg-lib",
   "version-string": "1.0.0",
-  "description": "Vcpkg demo lib"
+  "description": "Vcpkg demo lib",
+  "dependencies": [
+    "vcpkg-cmake"
+  ]
 }
