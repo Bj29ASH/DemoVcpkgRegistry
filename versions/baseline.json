@@ -7,6 +7,14 @@
     "vcpkg-cmake": {
       "baseline": "2024-04-23",
       "port-version": 0
+    },
+    "qt5-base": {
+      "baseline": "5.15.14",
+      "port-version": 2
+    },
+    "qt5-charts": {
+      "baseline": "5.15.14",
+      "port-version": 0
     }
   }
 }
