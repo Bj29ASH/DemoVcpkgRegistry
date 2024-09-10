@@ -1,0 +1,8 @@
+{
+  "name": "simdis",
+  "version-string": "1.17",
+  "description": "mpds simdis",
+  "dependencies": [
+    "vcpkg-cmake"
+  ]
+}
