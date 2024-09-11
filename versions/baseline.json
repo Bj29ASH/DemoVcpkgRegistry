@@ -111,6 +111,10 @@
     "easy-profiler": {
       "baseline": "2.1.0",
       "port-version": 0
+    },
+    "imgui": {
+      "baseline": "1.83",
+      "port-version": 0
     }
   }
 }
