@@ -99,6 +99,10 @@
     "polylabel": {
       "baseline": "1.1.0",
       "port-version": 0
+    },
+    "geometryhpp": {
+      "baseline": "2.0.3",
+      "port-version": 0
     }
   }
 }

@@ -1,0 +1,15 @@
+set(VCPKG_POLICY_SKIP_COPYRIGHT_CHECK enabled)
+
+vcpkg_from_github(
+  OUT_SOURCE_PATH SOURCE_PATH
+  REPO Bj29ASH/geometryhpp
+  REF v2.0.3
+  SHA512 95eb2abf8a8b66c4937676dbd0873f2fe399d5487c892f1fe1cbbc504208e65ad23b5a2318c9589308ffcb3122eb5bc46b9214fe5c2184c8a612b648d291b616
+  HEAD_REF main
+)
+
+vcpkg_cmake_configure(SOURCE_PATH ${SOURCE_PATH})
+vcpkg_cmake_install()
+
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/share")
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
