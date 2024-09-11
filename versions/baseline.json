@@ -91,6 +91,10 @@
     "simdis": {
       "baseline": "1.17",
       "port-version": 0
+    },
+    "geographiclib": {
+      "baseline": "2.4",
+      "port-version": 0
     }
   }
 }
