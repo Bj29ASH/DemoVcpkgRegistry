@@ -1,0 +1,13 @@
+{
+  "name": "easy-profiler",
+  "version": "2.1.0",
+  "description": "easy-profiler",
+  "homepage": "https://github.com/Bj29ASH/easy-profiler",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    }
+  ]
+}
