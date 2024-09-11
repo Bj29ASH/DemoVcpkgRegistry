@@ -1,23 +1,13 @@
 {
   "name": "geographiclib",
-  "version": "2.4",
+  "version": "1.52",
   "description": "GeographicLib, a C++ library for performing geographic conversions",
-  "homepage": "https://geographiclib.sourceforge.io",
+  "homepage": "https://github.com/Bj29ASH/geographiclib",
   "license": "MIT",
   "dependencies": [
     {
       "name": "vcpkg-cmake",
       "host": true
-    },
-    {
-      "name": "vcpkg-cmake-config",
-      "host": true
     }
-  ],
-  "features": {
-    "tools": {
-      "description": "The GeographicLib tools",
-      "supports": "!uwp"
-    }
-  }
+  ]
 }
