@@ -95,6 +95,10 @@
     "geographiclib": {
       "baseline": "1.52",
       "port-version": 0
+    },
+    "polylabel": {
+      "baseline": "1.1.0",
+      "port-version": 0
     }
   }
 }

@@ -1,0 +1,15 @@
+set(VCPKG_POLICY_SKIP_COPYRIGHT_CHECK enabled)
+
+vcpkg_from_github(
+  OUT_SOURCE_PATH SOURCE_PATH
+  REPO Bj29ASH/polylabel
+  REF v1.1.0
+  SHA512 a430f1cc904552dd230bf9bf08066fe9f84e7038de2a78d548f36e49c6314461dc4613ef4647d949d7560b698740342db9d763fd26c43b8c394177412bd3547e
+  HEAD_REF main
+)
+
+vcpkg_cmake_configure(SOURCE_PATH ${SOURCE_PATH})
+vcpkg_cmake_install()
+
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/share")
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")

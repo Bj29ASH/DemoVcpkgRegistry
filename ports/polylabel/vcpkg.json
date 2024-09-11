@@ -1,0 +1,13 @@
+{
+  "name": "polylabel",
+  "version": "1.1.0",
+  "description": "Polylabel",
+  "homepage": "https://github.com/Bj29ASH/polylabel",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    }
+  ]
+}
