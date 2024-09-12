@@ -1,0 +1,15 @@
+set(VCPKG_POLICY_SKIP_COPYRIGHT_CHECK enabled)
+
+vcpkg_from_github(
+  OUT_SOURCE_PATH SOURCE_PATH
+  REPO Bj29ASH/vlcqt
+  REF v1.2.0
+  SHA512 725024368911724a1dbba201e4d1c0cd740032f26123115361f25dd3f2644f3beb71493ecd069749cd73cd0730edc558a66595bf0d84eefe66cf201cfb00ff51
+  HEAD_REF main
+)
+
+vcpkg_cmake_configure(SOURCE_PATH ${SOURCE_PATH})
+vcpkg_cmake_install()
+
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/share")
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")

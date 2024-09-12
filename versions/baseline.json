@@ -115,6 +115,10 @@
     "imgui": {
       "baseline": "1.83",
       "port-version": 0
+    },
+    "vlcqt": {
+      "baseline": "1.2.0",
+      "port-version": 0
     }
   }
 }

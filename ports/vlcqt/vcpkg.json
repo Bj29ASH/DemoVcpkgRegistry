@@ -1,0 +1,13 @@
+{
+  "name": "vlcqt",
+  "version": "1.2.0",
+  "description": "vlcqt",
+  "homepage": "https://github.com/Bj29ASH/vlcqt",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    }
+  ]
+}
