@@ -1,0 +1,13 @@
+{
+  "name": "kd-reports",
+  "version": "2.2.0",
+  "description": "kd-reports",
+  "homepage": "https://github.com/Bj29ASH/kd-reports",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    }
+  ]
+}
