@@ -171,6 +171,14 @@
     "kd-reports": {
       "baseline": "2.2.0",
       "port-version": 0
+    },
+    "libwebp": {
+      "baseline": "1.4.0",
+      "port-version": 1
+    },
+    "tiff": {
+      "baseline": "4.6.0",
+      "port-version": 4
     }
   }
 }
