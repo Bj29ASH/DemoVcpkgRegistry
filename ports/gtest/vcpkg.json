@@ -1,0 +1,13 @@
+{
+  "name": "gtest",
+  "version": "1.15.0",
+  "description": "Google Test",
+  "homepage": "https://github.com/Bj29ASH/gtest",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    }
+  ]
+}
