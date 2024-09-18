@@ -187,6 +187,10 @@
     "expat": {
       "baseline": "2.4.1",
       "port-version": 0
+    },
+    "gps-babel": {
+      "baseline": "0.1",
+      "port-version": 0
     }
   }
 }
