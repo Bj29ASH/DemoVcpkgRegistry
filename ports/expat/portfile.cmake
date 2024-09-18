@@ -1,0 +1,15 @@
+set(VCPKG_POLICY_SKIP_COPYRIGHT_CHECK enabled)
+
+vcpkg_from_github(
+  OUT_SOURCE_PATH SOURCE_PATH
+  REPO Bj29ASH/expat
+  REF v0.1
+  SHA512 6966e0d69a977ac721d265cded88e227b68927353996d02f98b34bf3f41ecc7d9dfc4b962d649723b10f2dad1c86b7c7b5706fd6d56eb2c1772c4a696a144961
+  HEAD_REF main
+)
+
+vcpkg_cmake_configure(SOURCE_PATH ${SOURCE_PATH})
+vcpkg_cmake_install()
+
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/share")
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")

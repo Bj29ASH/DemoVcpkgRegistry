@@ -1,0 +1,13 @@
+{
+  "name": "expat",
+  "version": "0.1",
+  "description": "expat",
+  "homepage": "https://github.com/Bj29ASH/expat",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    }
+  ]
+}
