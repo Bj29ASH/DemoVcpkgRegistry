@@ -191,6 +191,10 @@
     "gps-babel": {
       "baseline": "0.1",
       "port-version": 0
+    },
+    "kd-single-application": {
+      "baseline": "0.1",
+      "port-version": 0
     }
   }
 }

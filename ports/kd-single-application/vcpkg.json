@@ -1,0 +1,13 @@
+{
+  "name": "kd-single-application",
+  "version": "0.1",
+  "description": "kd-single-application",
+  "homepage": "https://github.com/Bj29ASH/kd-single-application",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    }
+  ]
+}
