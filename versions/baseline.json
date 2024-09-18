@@ -199,6 +199,10 @@
     "gtest": {
       "baseline": "1.15.0",
       "port-version": 0
+    },
+    "spdlog": {
+      "baseline": "1.11.0",
+      "port-version": 0
     }
   }
 }
