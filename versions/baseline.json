@@ -203,6 +203,10 @@
     "spdlog": {
       "baseline": "1.11.0",
       "port-version": 0
+    },
+    "sqlite-modern-cpp": {
+      "baseline": "3.2.8",
+      "port-version": 0
     }
   }
 }
